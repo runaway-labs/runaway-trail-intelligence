@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.local
+.DS_Store
+dist/
+build/
+*.log
+.vscode/
+.idea/
+
+# Demo outputs (audio, video assembly)
+demo/audio/*.mp3
+demo/output/*.mp4
+
+# Athlete data (keep schema, not data)
+data/athletes/*.json
